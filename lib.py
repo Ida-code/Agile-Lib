@@ -3,7 +3,6 @@
 library = []
 students = []
 
-# -------- Login Module --------
 def login():
     username = input("Enter username: ")
     password = input("Enter password: ")
