@@ -3,6 +3,19 @@
 library = []
 students = []
 
+# -------- Login Module --------
+def login():
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+
+    if username == "admin" and password == "admin123":
+        print("Login successful!\n")
+        return True
+    else:
+        print("Invalid credentials.\n")
+        return False
+
+
 
 def register_student():
     student_id = input("Enter Student ID: ")
@@ -134,4 +147,11 @@ def menu():
             print("Invalid choice. Try again.\n")
 
 
-menu()
+if login():
+    menu()
+
+
+
+
+else:
+    print("Access denied.")
