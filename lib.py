@@ -3,7 +3,7 @@
 library = []
 students = []
 
-def users_login():
+def login():
     username = input("Enter username: ")
     password = input("Enter password: ")
 
@@ -146,7 +146,7 @@ def menu():
             print("Invalid choice. Try again.\n")
 
 
-if users_login():
+if login():
     menu()
 
 
