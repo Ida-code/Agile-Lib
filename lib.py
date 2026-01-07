@@ -8,9 +8,7 @@ def login():
     username = input("Enter username: ")
     password = input("Enter password: ")
 
-
     if username == "admin" and password == "admin@98":
-=======
 
         print("Login successful!\n")
         return True
