@@ -3,11 +3,11 @@
 library = []
 students = []
 
-def login():
+def login_user():
     username = input("Enter username: ")
     password = input("Enter password: ")
 
-    if username == "admin" and password == "admin123":
+    if username == "admin" and password == "admin23":
         print("Login successful!\n")
         return True
     else:
@@ -146,7 +146,7 @@ def menu():
             print("Invalid choice. Try again.\n")
 
 
-if login():
+if login_user():
     menu()
 
 
