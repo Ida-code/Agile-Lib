@@ -4,7 +4,7 @@ library = []
 students = []
 
 
-def login():
+def users_login():
     username = input("Enter username: ")
     password = input("Enter password: ")
 
@@ -149,7 +149,7 @@ def menu():
 
 
 
-if login():
+if users_login():
 
 
     menu()
