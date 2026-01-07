@@ -3,11 +3,7 @@
 library = []
 students = []
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> Developer1
 def login():
     username = input("Enter username: ")
     password = input("Enter password: ")
@@ -152,13 +148,10 @@ def menu():
             print("Invalid choice. Try again.\n")
 
 
-<<<<<<< HEAD
 
 if login():
 
-=======
-if login():
->>>>>>> Developer1
+
     menu()
 
 
